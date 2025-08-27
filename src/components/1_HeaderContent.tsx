@@ -1,15 +1,15 @@
 import { AppTitle } from "./header/AppTitle";
 import { ToggleDarkMode } from "../theme/ToggleDarkMode";
+import { MenuBar } from "./header/MenuBar";
 
 export default function HeaderContent() {
   return (
-    <div className="flex justify-between">
-      <div className="ml-4">
-        <AppTitle />
-      </div>
-      <div className="mt-2">
+    <div>
+      <div className="flex justify-between ">
+        <MenuBar />
         <ToggleDarkMode />
       </div>
+      <AppTitle />
     </div>
   );
 }
