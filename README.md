@@ -1,1 +1,1 @@
-# Tauri Start Template
+# Tauri Starter Template
