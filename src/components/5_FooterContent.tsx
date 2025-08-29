@@ -5,7 +5,7 @@ export default function FooterContent() {
   return (
     <div>
       <Divider />
-      <section className="py-1 px-2 flex items-center gap-2 justify-between bg-neutral-100">
+      <section className="py-1 px-2 flex items-center gap-2 justify-between bg-neutral-100 dark:bg-neutral-800">
         <div></div>
         <div className="">
           <AppVersion />
